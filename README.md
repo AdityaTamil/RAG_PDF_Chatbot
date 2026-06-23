@@ -1,4 +1,4 @@
-# PDF RAG Chatbot
+# RAG PDF Chatbot
 
 A Retrieval-Augmented Generation (RAG) chatbot that enables users to upload PDF documents and ask natural language questions about their content. The system leverages semantic retrieval and large language models to generate context-aware answers from uploaded documents.
 
@@ -61,9 +61,9 @@ PDF → Text Extraction → Chunking → Embedding Generation → FAISS Index �
 ## Installation
 
 ```bash
-git clone https://github.com/AdityaTamil/PDF_RAG_chatbot.git
+git clone https://github.com/AdityaTamil/RAG_PDF_Chatbot.git
 
-cd PDF_RAG_chatbot
+cd RAG_PDF_Chatbot
 
 pip install -r requirements.txt
 ```
@@ -93,7 +93,7 @@ streamlit run app.py
 ## Repository Structure
 
 ```text
-PDF_RAG_chatbot/
+RAG_PDF_Chatbot/
 │
 ├── app.py
 ├── requirements.txt
